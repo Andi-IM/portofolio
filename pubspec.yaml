@@ -1,0 +1,22 @@
+name: portofolio
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.12.0+2
+  cupertino_icons: ^0.1.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/works/
+  fonts:
+    - family: GoogleSansRegular
+      fonts:
+        - asset: assets/GoogleSansRegular.ttf
