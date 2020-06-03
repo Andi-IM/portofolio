@@ -1,4 +1,4 @@
-![Flutter CI Web](https://github.com/Andi-IM/portofolio/workflows/Flutter%20CI%20Web/badge.svg?branch=docs&event=push)
+![Flutter Web](https://github.com/Andi-IM/portofolio/workflows/Flutter%20Web/badge.svg?branch=docs)
 # portofolio
 
 A new Flutter project.
