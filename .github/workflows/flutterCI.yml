@@ -2,7 +2,7 @@ name: Flutter Web
 on:
   push:
     branches:
-      - master
+      - docs
 jobs:
   build:
     name: Build Web
@@ -26,7 +26,7 @@ jobs:
           git config --global user.email andi.irhamm@gmail.com
           git config --global user.name Andi-IM
           git status
-          # change this remote url for examle your remote url is https://github.com/onatcipli/flutter_web.git then the following:
+          # change this remote url for examle your remote url is https://github.com/Andi-IM/portofolio.git then the following:
           git remote add origin https://${{secrets.commit_secret}}@github.com/Andi-IM/portofolio.git
           git checkout -b gh-pages
           git add --all
