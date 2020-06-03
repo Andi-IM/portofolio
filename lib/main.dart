@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(new MaterialApp(
     title: "Andi Irham App",
-    home: new Hello(),
+    home: new MyApp(),
   ));
 }
 
-class Hello extends StatelessWidget {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
